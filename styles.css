@@ -1,0 +1,79 @@
+body{
+    background-color: #cfa360;
+}
+
+.Menu-navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(243, 193, 131);
+}
+
+.Menu-navegacion img{
+    width: 10%;
+    height: auto;
+    margin: 10px 0px 10px 30px;
+    cursor: pointer;
+}
+
+.Menu-navegacion ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 30px 0px 0px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.Menu-navegacion li{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.Menu-navegacion li:hover{
+   color: red;
+}
+
+.Aguachiles-Intro{
+    text-align: center;
+}
+
+h1{
+    color:rgb(8, 14, 29);
+}
+
+.encabezado{
+    color: blue;
+    text-align: center;
+}
+
+.img-aguachile-intro{
+    border-radius: 40px;
+}
+
+/* Estilos para la seccion de productos*/
+.Menú{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    background-color:lavender;
+}
+
+.Menú img{
+    width: 200px;
+    height: 200px;
+}
+
+.Menú img:hover{
+    width: 250px;
+    height: 250px;
+}
+
+.Galeria-aguachile {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 13px;
+    grid-row-gap: 10px;
+    }
